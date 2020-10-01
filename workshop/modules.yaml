@@ -1,0 +1,17 @@
+modules:
+  ocs4:
+    name: Deploying and Managing OpenShift Container Storage
+config:
+    template_engine: liquid.js  
+    vars:
+      - name: SSH_PASSWORD
+      - name: SSH_USERNAME
+      - name: ENVIRONMENT
+        value: "Amazon Web Services"
+      - name: API_URL
+      - name: MASTER_URL
+      - name: KUBEADMIN_PASSWORD
+      - name: BASTION_FQDN
+      - name: GUID
+      - name: ROUTE_SUBDOMAIN
+      - name: HOME_PATH

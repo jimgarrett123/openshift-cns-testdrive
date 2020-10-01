@@ -1,0 +1,6 @@
+name: OpenShift and Container Storage for Admins
+
+modules:
+  activate:
+  - ocs4
+  
